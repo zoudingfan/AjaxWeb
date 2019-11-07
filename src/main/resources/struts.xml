@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="aaa" extends="struts-default" namespace="/aaa">
+        <action name="queryAdmin" class="com.baizhi.Action.AdminAction" method="queryAdmin">
+        </action>
+
+        <action name="insert" class="com.baizhi.Action.AdminAction" method="insert">
+            <result name="insertOk">/index.jsp</result>
+        </action>
+    </package>
+</struts>
