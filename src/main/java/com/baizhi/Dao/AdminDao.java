@@ -4,6 +4,7 @@ import com.baizhi.entity.Admin;
 
 import java.util.List;
 //对方的撒旦发射点看
+//dgfksdlldfkdsfsd
 public interface AdminDao {
     //插入用户
     public void insertAdmin(Admin admin);
